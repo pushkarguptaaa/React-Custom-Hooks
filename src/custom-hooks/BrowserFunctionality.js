@@ -28,6 +28,7 @@ export const useMousePointer = () => {
     return () => {
       window.removeEventListener('mousemove', handleMouseMove);
     };
+    
   }, []);
 
   return position;
